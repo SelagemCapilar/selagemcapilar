@@ -1,15 +1,15 @@
 # Site settings
 
-author: Yourname
-email: example@email.com
-youtube_channel:  channel
-youtube_username:  username
-github_username:  username
-twitter_username: username
-googleplus_username: username
+author: Le Coiffeur
+email: LeCoiffeur@selagemcapilar.github.io
+youtube_channel:  null
+youtube_username:  null
+github_username:  null
+twitter_username: null
+googleplus_username: null
 
-head-title: Your blog
-title: Your blog
+head-title: Selagem Capilar - Tudo o que você precisa saber está aqui!
+title: Selagem Capilar
 description: ""
 
 baseurl: ""    # the subpath of your site, "/blog"
