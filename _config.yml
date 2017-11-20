@@ -13,7 +13,7 @@ title: Selagem Capilar
 description: ""
 
 baseurl: ""    # the subpath of your site, "/blog"
-url: ""
+url: "https://selagemcapilar.github.io"
 
 #
 # Build settings
@@ -38,8 +38,7 @@ permalink: /:title.html
 paginate: 7
 #paginate_path: 'page/:num'
 
-gems: [jekyll-paginate, jekyll-last-modified-at, jemoji]
-
+gems: [jekyll-paginate, jekyll-last-modified-at, jemoji, jekyll-sitemap]
 
 #
 # Custom
