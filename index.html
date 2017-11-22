@@ -16,7 +16,7 @@ layout: default
         <div id="{{ post.id | remove: '%' | replace: '/', '_' }}" class="modal modal-fixed-footer">
           <div class="modal-content">
             <h4>{{ post.title }}</h4>
-            <p>{{ post.excerpt }}</p>
+            {{ post.excerpt }}
           </div>
           <div class="modal-footer">
             <a href="{{ post.url | prepend: site.baseurl }}" class="waves-effect btn-flat grey-text text-darken-4 right">read more</a>
@@ -40,7 +40,7 @@ layout: default
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="waves-effect waves-light btn cyan right"><i class="mdi mdi-chevron-right white-text"></i></a>
     {% else %}
-    <span class="btn disabled right"><i class="mdi mdi-chevron-right white-text"></i></a></li>
+    <span class="btn disabled right"><i class="mdi mdi-chevron-right white-text"></i></span>
     {% endif %}
   </div>
 
