@@ -32,7 +32,6 @@ $ bundle install
 
 1. Modify `_config.yml`, `about.md` and other(whatever you need).
 2. You can add a `favicon.ico` file in the project root directory.
-3. If you want to use google analytics, add your `google-analytics.js` into `js` directory.
 
 Then:
 
